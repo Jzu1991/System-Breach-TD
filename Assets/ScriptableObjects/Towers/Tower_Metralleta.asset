@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2010000000000000000000000000001, type: 3}
+  m_Name: Tower_Metralleta
+  m_EditorClassIdentifier: 
+  towerType: 2
+  towerName: Metralleta
+  description: Alta cadencia, daño medio-bajo. Ideal contra grupos de enemigos rapidos.
+  icon: {fileID: 0}
+  prefab: {fileID: 100, guid: b1030000000000000000000000000001, type: 3}
+  baseCost: 100
+  sellPercentage: 0.7
+  upgradeCosts:
+  - 150
+  - 200
+  - 300
+  - 500
+  damage:
+  - 3
+  - 5
+  - 8
+  - 12
+  - 15
+  dexterity:
+  - 30
+  - 45
+  - 60
+  - 75
+  - 100
+  critChance:
+  - 0
+  - 0.05
+  - 0.1
+  - 0.2
+  - 0.3
+  range:
+  - 4
+  - 6
+  - 8
+  - 10
+  - 14
+  moneyPerWave:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  dexterityBonus:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  boostRange:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  critMultiplier: 2

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97bf7752cc4db004a889b338fb923daa, type: 3}
+  m_Name: Tower_Melee
+  m_EditorClassIdentifier: Assembly-CSharp::SystemBreach.Data.TowerData
+  towerType: 0
+  towerName: Melee
+  description: "Torre de corto alcance que propina pu\xF1etazos r\xE1pidos. Alta
+    frecuencia de golpe."
+  icon: {fileID: 0}
+  prefab: {fileID: 0}
+  baseCost: 50
+  sellPercentage: 0.7
+  upgradeCosts: 4b0000006400000096000000c8000000
+  damage: 050000000a000000140000002300000032000000
+  dexterity:
+  - 10
+  - 12
+  - 15
+  - 22
+  - 30
+  critChance:
+  - 0
+  - 0.05
+  - 0.1
+  - 0.2
+  - 0.3
+  range:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  moneyPerWave: 0000000000000000000000000000000000000000
+  dexterityBonus:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  boostRange:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  critMultiplier: 2

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208a80e5b6f10b748b1865ae06387efe, type: 3}
+  m_Name: Enemy_Normal
+  m_EditorClassIdentifier: Assembly-CSharp::SystemBreach.Data.EnemyData
+  enemyType: 0
+  enemyName: Virus
+  loreDescription: Enemigo base con stats equilibrados. Referencia de balance.
+  prefab: {fileID: 0}
+  baseHP: 50
+  moveSpeed: 3
+  killReward: 10
+  bossHPPerLevel:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0

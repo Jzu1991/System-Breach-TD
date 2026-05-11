@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2020000000000000000000000000001, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b3ce7c9d5e2ea544886cad4f041e684, type: 3}
   m_Name: Enemy_Boss
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::SystemBreach.Data.EnemyData
   enemyType: 3
   enemyName: Ransomware
   loreDescription: Un Boss por nivel. Solo escala la vida (HP). Recompensa elevada.
-  prefab: {fileID: 100, guid: b2040000000000000000000000000001, type: 3}
+  prefab: {fileID: 0}
   baseHP: 1000
   moveSpeed: 1.5
   killReward: 100

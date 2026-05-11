@@ -9,27 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2010000000000000000000000000001, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fe86b3afbb504541a5a81e5c3aa9631, type: 3}
   m_Name: Tower_Common
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::SystemBreach.Data.TowerData
   towerType: 1
   towerName: Common
   description: Torre de alcance medio que dispara proyectiles. Stats equilibrados.
   icon: {fileID: 0}
-  prefab: {fileID: 100, guid: b1020000000000000000000000000001, type: 3}
+  prefab: {fileID: 0}
   baseCost: 75
   sellPercentage: 0.7
-  upgradeCosts:
-  - 100
-  - 150
-  - 200
-  - 300
-  damage:
-  - 10
-  - 15
-  - 22
-  - 30
-  - 50
+  upgradeCosts: 6400000096000000c80000002c010000
+  damage: 0a0000000f000000160000001e00000032000000
   dexterity:
   - 3
   - 5
@@ -48,12 +39,7 @@ MonoBehaviour:
   - 10
   - 14
   - 20
-  moneyPerWave:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  moneyPerWave: 0000000000000000000000000000000000000000
   dexterityBonus:
   - 0
   - 0

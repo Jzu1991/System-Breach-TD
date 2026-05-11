@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2020000000000000000000000000001, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b3ce7c9d5e2ea544886cad4f041e684, type: 3}
   m_Name: Enemy_Tank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::SystemBreach.Data.EnemyData
   enemyType: 2
   enemyName: Trojan
   loreDescription: Mucha vida, velocidad muy baja. Prioritario para Franco y Melee.
-  prefab: {fileID: 100, guid: b2030000000000000000000000000001, type: 3}
+  prefab: {fileID: 0}
   baseHP: 200
   moveSpeed: 1
   killReward: 25

@@ -9,27 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2010000000000000000000000000001, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fe86b3afbb504541a5a81e5c3aa9631, type: 3}
   m_Name: Tower_Melee
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::SystemBreach.Data.TowerData
   towerType: 0
   towerName: Melee
-  description: Torre de corto alcance que propina puñetazos rapidos. Alta frecuencia de golpe.
+  description: "Torre de corto alcance que propina pu\xF1etazos r\xE1pidos. Alta
+    frecuencia de golpe."
   icon: {fileID: 0}
-  prefab: {fileID: 100, guid: b1010000000000000000000000000001, type: 3}
+  prefab: {fileID: 0}
   baseCost: 50
   sellPercentage: 0.7
-  upgradeCosts:
-  - 75
-  - 100
-  - 150
-  - 200
-  damage:
-  - 5
-  - 10
-  - 20
-  - 35
-  - 50
+  upgradeCosts: 4b0000006400000096000000c8000000
+  damage: 050000000a000000140000002300000032000000
   dexterity:
   - 10
   - 12
@@ -48,12 +40,7 @@ MonoBehaviour:
   - 3
   - 4
   - 5
-  moneyPerWave:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  moneyPerWave: 0000000000000000000000000000000000000000
   dexterityBonus:
   - 0
   - 0

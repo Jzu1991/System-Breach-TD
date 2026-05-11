@@ -9,27 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2010000000000000000000000000001, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fe86b3afbb504541a5a81e5c3aa9631, type: 3}
   m_Name: Tower_Metralleta
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::SystemBreach.Data.TowerData
   towerType: 2
   towerName: Metralleta
-  description: Alta cadencia, daño medio-bajo. Ideal contra grupos de enemigos rapidos.
+  description: "Alta cadencia, da\xF1o medio-bajo. Ideal contra grupos de enemigos
+    r\xE1pidos."
   icon: {fileID: 0}
-  prefab: {fileID: 100, guid: b1030000000000000000000000000001, type: 3}
+  prefab: {fileID: 0}
   baseCost: 100
   sellPercentage: 0.7
-  upgradeCosts:
-  - 150
-  - 200
-  - 300
-  - 500
-  damage:
-  - 3
-  - 5
-  - 8
-  - 12
-  - 15
+  upgradeCosts: 96000000c80000002c010000f4010000
+  damage: 0300000005000000080000000c0000000f000000
   dexterity:
   - 30
   - 45
@@ -48,12 +40,7 @@ MonoBehaviour:
   - 8
   - 10
   - 14
-  moneyPerWave:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  moneyPerWave: 0000000000000000000000000000000000000000
   dexterityBonus:
   - 0
   - 0
